@@ -8,7 +8,7 @@ class Post < ApplicationRecord
 
      def clickbait?
       if self.title=== "True Facts"
-        errors.add(:title, "must be a clickbait-y title")
+        errors.add(:title, "must be clickbait")
       end
 
      end
